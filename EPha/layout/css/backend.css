@@ -1,0 +1,433 @@
+
+/* Start Main */
+
+body
+{
+	background-color: #EEE;
+  
+}
+
+
+/* End Main */
+/* Start Bootstrap Edit */
+.navbar
+{
+	border-radius: 0;
+	margin-top: 0;
+
+
+}
+.navbar ul li 
+{
+	margin-left: 50px; 
+  margin-right: 50px; 
+	padding-top: 0px
+  
+}
+
+.navbar ul li a
+{
+    line-height: 30px;
+
+}
+
+.navbar ul li:hover
+{
+	background-color: #286090;
+
+
+}
+.navbar ul li:hover .badge
+{
+  background-color: #000;
+}
+.navbar-brand
+{
+	padding: 20px 15px
+}
+
+.navbar img
+{
+	margin-right: 8px;
+}
+
+
+.search
+{
+	margin-top: 15px;
+  
+}
+.search select
+{
+  min-width: 150px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 0
+}
+.search-div
+{
+  margin-right: -10px;
+  margin-bottom: 5px;
+  
+}
+.search-div input
+{
+  border-radius: 0px;
+
+  border:1px solid #999;
+}
+.search-div input:focus
+{
+  
+  border:1px solid #F39C12;
+
+}
+
+.search .search-icon
+{
+  background-color: #F39C12;
+  border:1px solid #F39C12;
+  border-radius: 0px;
+}
+
+.navbar .badge
+{
+  background-color: #00F;
+}
+.nav-header
+{
+  margin-bottom: -10px;
+}
+.header-info
+{
+  padding-top: 8px;
+  padding-left: 15px;
+  
+  background-color: #F0F0E9;
+}
+.header-info  i
+{
+  margin-right: 50px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  color:#777;
+}
+
+
+.item-box 
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+
+.img-controll
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.btn-flat
+{
+  border-radius: 1px;
+  background-color: #F39C12;
+  margin-top: 5px;
+}
+.item-box h4
+{
+  margin-top: 25px;
+  margin-bottom:  25px;
+}
+.item-box
+{
+  border: 1px solid #EEEEEE;
+}
+.item-box:hover
+{
+  border: 1px solid #F39C12;
+}
+
+/*
+.opitionsMed
+{
+  background-color: #222222;
+  width: 125px;
+  padding: 0 0 0 10px;
+
+  position: absolute;
+  left: 345px;
+  top: 64px;
+  display: none;
+}
+.opitionsCat
+{
+  background-color: #222222;
+  width: 125px;
+  padding: 0 0 0 10px;
+  position: absolute;
+  left: 476px;
+  top: 64px;
+  display: none;
+}
+.opitionsMemb
+{
+  background-color: #222222;
+  width: 125px;
+  padding: 0 0 0 10px;
+  position: absolute;
+  left: 605px;
+  top: 64px;
+  display: none;
+}
+.opitionsMed .add,.opitionsCat .add,.opitionsMemb .add
+{
+  padding:10px 0 10px; 
+
+}
+
+.opitionsMed .add a,.opitionsCat .add a,.opitionsMemb .add a
+{
+  color:#FFF;
+  text-decoration: none;
+}
+.opitionsMed .add a:hover,
+.opitionsCat .add a:hover,
+.opitionsMemb .add a:hover,
+{
+  color: #286090;
+}
+*/
+/* End Bootstrap Edit */
+
+
+/* Start Login Page */
+.login-form 
+{
+	max-width: 350px;
+	margin: 100px auto;
+  padding: 10px 30px -30px 30px;
+  background-color: #FFF;
+  border: 1px solid #FE980F;
+}
+.login-form h1 {
+  color: #000;
+  
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom:-70px;
+}
+
+
+.login-form form input {
+  background: #FFF;
+  border: 1px solid #999;
+  color: #696763;
+  display: block;
+  border-radius: 0; 
+  font-size: 14px;
+  font-weight: 300;
+  height: 40px;
+  margin-bottom: 10px;
+  
+  padding-left: 10px;
+  width: 100%;
+}
+
+.login-form form span{
+  line-height: 23px;
+}
+
+.login-form form span input {
+  width: 16px;
+  float: left;
+  height: 18px;
+  margin-right: 5px;
+
+}
+
+.login-form form button {
+  margin-top: 12px;
+
+  background: #FE980F;
+  border: 1px solid #FE980F;
+  border-radius: 0;
+  color: #FFFFFF;
+  display: block;
+  padding: 6px 25px ;
+}
+
+.login-form form button:hover {
+ 	
+ 	border: 1px solid #FE980F;
+ 	color:#000;
+ 	background: #FFF; 
+}
+
+.login-form label{
+	
+}
+
+/* Start Login Page */
+
+
+/* Start Index Page */
+.content
+{
+  margin-top: 20px;
+}
+.small-box {
+  border-radius: 5px;
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color:#FFF;
+}
+.bg-blue
+{
+  background-color: #00ACD7;
+}
+.bg-green
+{
+  background-color: #00A65A;
+}
+.bg-yellow
+{
+  background-color: #F39C12;
+}
+.bg-red
+{
+  background-color: #DD4B39;
+}
+
+.small-box > .inner {
+  padding: 15px 20px;
+}
+.small-box > .small-box-footer {
+  position: relative;
+  text-align: center;
+  padding: 3px 0;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.small-box > .small-box-footer:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.15);
+}
+.small-box h3 {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  white-space: nowrap;
+  padding: 0;
+}
+.small-box p {
+  font-size: 15px;
+}
+.small-box p > small {
+  display: block;
+  color: #f9f9f9;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.small-box h3,
+.small-box p {
+  z-index: 5;
+}
+.small-box .icon {
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  z-index: 0;
+  font-size: 90px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.small-box:hover .icon {
+  font-size: 95px;
+}
+@media (max-width: 767px) {
+  .small-box {
+    text-align: center;
+  }
+  .small-box .icon {
+    display: none;
+  }
+  .small-box p {
+    font-size: 12px;
+  }
+}
+/* End Index Page   */
+
+/* Tables In Members And Categories And Medicines */
+
+.box {
+  position: relative;
+  margin-top: 15px;
+  border-radius: 0px;
+  background: #FFF;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: -100px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-body {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 10px;
+}
+
+
+
+@media (max-width: 991px) {
+  .chart-legend > li {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+/* Tables In Members And Categories And Medicines */
+
+/* Start Footer */
+
+
+/* End Footer */
+
+
+
+
+/* Start Forms */
+
+form
+{
+  padding: 10px 20px;
+  margin:100px auto;
+  max-width: 700px;
+
+} 
+form a
+{
+  color: #555;
+}
+
+form textarea
+{
+  max-width: 100%;
+  min-height: 100px; 
+}
+
+
+/* End Forms */
